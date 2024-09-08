@@ -9,3 +9,20 @@
 #  2. Salir
 # si el usuario no ingresa 1 o 2, mostrarle un mensaje que no es una
 # opcion correcta.
+
+
+def calculadora(num1, num2, operador):
+    match operador:
+        case "+":
+            return num1 + num2
+        case "-":
+            return num1 - num2
+        case "*":
+            return num1 * num2
+        case "/":
+            num1 / num2
+
+
+resultado = calculadora(2,5,"+")
+
+print(resultado)

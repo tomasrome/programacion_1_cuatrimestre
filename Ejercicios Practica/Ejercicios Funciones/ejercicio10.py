@@ -19,7 +19,7 @@ def validar_edad(edad):
 def validar_genero(genero):
 
     genero_correcto = True
-
+    
     if genero != "F" or genero != "M" or genero != "X":
         genero_correcto = False
     
