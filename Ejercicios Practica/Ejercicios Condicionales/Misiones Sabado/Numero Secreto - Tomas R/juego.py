@@ -5,7 +5,7 @@ def jugar(numero_secreto : int)->None:
         numero_secreto (int): El número secreto que el jugador debe adivinar.
     
     Returns:
-        None: No retorna ningun valor.   
+        None: No retorna ningun valor. Inicializa el juego.
     """
     
     print("\n\033[32m-COMIENZA EL JUEGO-\n\033[0m")

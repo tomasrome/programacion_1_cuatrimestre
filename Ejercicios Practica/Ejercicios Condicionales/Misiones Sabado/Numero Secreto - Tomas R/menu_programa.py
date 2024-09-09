@@ -17,7 +17,7 @@ while salida == False:
 
     eleccion_menu = int(input(mensaje_menu))
     while eleccion_menu != 1 and eleccion_menu != 2 and eleccion_menu != 3:
-        eleccion_menu = int(input("Valor invalido. Reingrese su elección: "))
+        eleccion_menu = int(input("Valor invalido. Reingresé su elección: "))
     
     match eleccion_menu:
         case 1:
