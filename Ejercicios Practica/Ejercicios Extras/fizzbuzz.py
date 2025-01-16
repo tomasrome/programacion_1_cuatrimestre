@@ -4,9 +4,8 @@
 # que son múltiplos tanto de tres como de cinco imprimir "FizzBuzz" 
 
 
-
 for i in range(1,101):
-    
+
     fizz = i % 3 == 0
     buzz = i % 5 == 0
 
@@ -17,6 +16,5 @@ for i in range(1,101):
     elif buzz:
         print("Buzz")
     else:
-        print(i)
-
+        print(i)    
 
